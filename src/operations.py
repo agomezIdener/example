@@ -1,5 +1,5 @@
 from multiply import multiply
-
+from factorial import factorial
 class Operations:
     def __init__(self):
         self.a = 5
@@ -15,6 +15,9 @@ class Operations:
     
     def multiply(self):
         return multiply(self.a, self.b)
+    
+    def factorial(self):
+        return factorial(self.a)
 
 
 
@@ -24,3 +27,4 @@ Operations().display()
 print((Operations().add()))
 print((Operations().subtract()))
 print((Operations().multiply()))
+print((Operations().factorial()))
