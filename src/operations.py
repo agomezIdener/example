@@ -16,3 +16,5 @@ class Operations:
 
 print("Operations module loaded")
 Operations().display()
+print((Operations().add()))
+print((Operations().subtract()))
