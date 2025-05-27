@@ -1,6 +1,7 @@
 from multiply import multiply
 from factorial import factorial
 import hello
+import goodmorning
 
 class Operations:
     def __init__(self):
@@ -32,5 +33,6 @@ print((Operations().multiply()))
 print((Operations().factorial()))
 
 hello.hello()
+goodmorning.good()
 
 print("Example test")
