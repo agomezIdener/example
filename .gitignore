@@ -1,1 +1,6 @@
-# To fill
+# Carpeta de Spyder
+.spyproject/
+
+# Ignorar todos los archivos .pyc generados por Python
+**/__pycache__/
+**/*.pyc
