@@ -1,5 +1,7 @@
 from multiply import multiply
 from factorial import factorial
+import hello
+
 class Operations:
     def __init__(self):
         self.a = 5
@@ -28,3 +30,7 @@ print((Operations().add()))
 print((Operations().subtract()))
 print((Operations().multiply()))
 print((Operations().factorial()))
+
+hello.hello()
+
+print("Example test")
